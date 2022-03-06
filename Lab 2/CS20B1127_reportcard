@@ -1,0 +1,63 @@
+//CS20B1127
+//Hitesh Gupta
+//Program to create a student report card.
+//Report Card Header File.
+
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+class reportCard
+{
+    private:
+        string stu_name;
+        int roll_num;
+        int markDSA, markDAA, markDSCS, markOOP, markPSP;
+        
+    public:
+
+        void createReportCard(string name, int roll, int mark1, int mark2, int mark3, int mark4, int mark5)
+        {
+            stu_name = name;
+            roll_num = roll;
+            markDSA = mark1;
+            markDAA = mark2;
+            markDSCS = mark3;
+            markOOP = mark4;
+            markPSP = mark5;
+        }
+        
+        void displayAll()
+        {
+            cout << "\n Student name : " << stu_name << endl;
+            cout << " Roll number : " << roll_num << endl;
+            cout << "\n Marks in DSA: " << markDSA << endl;
+            cout << " Marks in DAA: " << markDAA << endl;
+            cout << " Marks in DSCS: " << markDSCS << endl;
+            cout << " Marks in OOP: " << markOOP << endl;
+            cout << " Marks in PSP: " << markPSP << endl;
+        }
+        
+        reportCard()
+        {
+            stu_name='\0';
+            roll_num=0;
+            markDSA = 0;
+            markDAA = 0;
+            markDSCS = 0;
+            markOOP = 0;
+            markPSP = 0;
+        }
+        
+        reportCard(string temp1, int temp2)
+        {
+            stu_name=temp1;
+            roll_num=temp2;
+            markDSA = 0;
+            markDAA = 0;
+            markDSCS = 0;
+            markOOP = 0;
+            markPSP = 0;
+        }
+        
+};
