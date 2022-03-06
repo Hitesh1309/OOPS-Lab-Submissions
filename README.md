@@ -158,7 +158,7 @@ The menu to be created is as follows,
 ---
 ## Lab-9
 ```
-Consider 4 classes person, student, research_student, and TA. ‘person’ is the base class for student and research_student classes. TA inherits from student and research_student class. In every base class, all the data members have protected access and member functions have public access. All derived classes derive in protected mode. It has a parameterized constructor for the initialization of its data members.
+9.1 Consider 4 classes person, student, research_student, and TA. ‘person’ is the base class for student and research_student classes. TA inherits from student and research_student class. In every base class, all the data members have protected access and member functions have public access. All derived classes derive in protected mode. It has a parameterized constructor for the initialization of its data members.
 
 The person class has name and roll_number as data members. It has a display member function with no arguments that display the name and roll_number of a person. It has a parameterized constructor for the initialization of its data members.
 
@@ -179,6 +179,11 @@ Write a menu-driven program with the following menus:
   c. Research Student
   d. Teaching Assistant
 3. Exit
+
+9.2 Program to implement Bubble Sort using the template in C++ (function template). Write the program with menus.
+
+9.3 Implement stack for int, char using templates in C++ (class template). Write the program with appropriate menus.
+
 ```
 ---
 ## Lab-10
