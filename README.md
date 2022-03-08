@@ -3,7 +3,7 @@ Object Oriented Programming Lab Course @IIITDM, 2021.
 ```
 Kattamuri V S J V S Hitesh Gupta   - CS20B1127
 ```
-This Lab covers C++ and Java.
+This Lab covers [C++](#c) and [Java](#java).
 # C++
 ## Lab-1
 ```
